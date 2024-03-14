@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: hsl(0, 0%, 95%);
+}
+main {
+  max-width: 600vw;
+  min-width: 70%;
+  width: 70%;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 500px;
+  font-family: "Lexend Deca", sans-serif;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 100px;
+}
+.column1 {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.column2 {
+  background-color: hsl(184, 100%, 22%);
+}
+.column3 {
+  background-color: hsl(179, 100%, 13%);
+}
+h2 {
+  color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulders Display", sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+}
+.column1,
+.column2,
+.column3 {
+  padding-inline: 40px;
+}
+button {
+  width: 80%;
+  height: 50px;
+  border-radius: 40px;
+  border: none;
+  background-color: hsl(0, 0%, 95%);
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: "Lexend Deca", sans-serif;
+}
+.button1:hover {
+  background-color: hsl(31, 77%, 52%);
+  border: solid hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 95%);
+}
+.button2:hover {
+  background-color: hsl(184, 100%, 22%);
+  border: solid hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 95%);
+}
+.button3:hover {
+  background-color: hsl(179, 100%, 13%);
+  border: solid hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 95%);
+}
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 15px;
+  font-weight: 400;
+  padding-block: 30px 70px;
+  line-height: 25px;
+}
+img {
+  padding-block: 40px;
+}
+.button1 {
+  color: hsl(31, 77%, 52%);
+}
+.button2 {
+  color: hsl(184, 100%, 22%);
+}
+.button3 {
+  color: hsl(179, 100%, 13%);
+}
+.attribution {
+  font-family: "Lexend Deca", sans-serif;
+  color: hsl(184, 100%, 22%);
+}
+a:hover {
+  color: white;
+}
+a {
+  text-decoration: none;
+}
